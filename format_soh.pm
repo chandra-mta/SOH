@@ -203,6 +203,8 @@ printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>AOSAPMON </FONT></TD>\n", ${
 printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%s </FONT></TD>\n", ${$h{AOSAPMON}}[3], ${$h{AOSAPMON}}[1];
 printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>AOSATMON </FONT></TD>\n", ${$h{AOSATMON}}[3];
 printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%s </FONT></TD>\n", ${$h{AOSATMON}}[3], ${$h{AOSATMON}}[1];
+printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>AOLAEMON </FONT></TD>\n", ${$h{AOLAEMON}}[3];
+printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%s </FONT></TD>\n", ${$h{AOLAEMON}}[3], ${$h{AOLAEMON}}[1];
 printf SF "<TR><TD><FONT SIZE=2>&nbsp</FONT></TR>\n";
 printf SF "<TR><TD><FONT SIZE=2>&nbsp</FONT></TR>\n";
 printf SF "</TABLE>\n";

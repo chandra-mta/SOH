@@ -203,6 +203,8 @@ printf SF "<TR><TD ALIGN=LEFT> <a href=\"javascript:void(0);\" style=\"text-deco
 printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%s </FONT></TD>\n", ${$h{AOSAPMON}}[3], ${$h{AOSAPMON}}[1];
 printf SF "<TR><TD ALIGN=LEFT> <a href=\"javascript:void(0);\" style=\"text-decoration: none;\" onmouseover=\"return overlib ('SADA OVERTEMPERATURE FAULT FLAG <br>  ERR OK', CAPTION, 'AOSATMON ' );\" onmouseout=\"return nd();\"><FONT SIZE=2 COLOR=%s>AOSATMON </FONT></a></TD>\n", ${$h{AOSATMON}}[3];
 printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%s </FONT></TD>\n", ${$h{AOSATMON}}[3], ${$h{AOSATMON}}[1];
+printf SF "<TR><TD ALIGN=LEFT> <a href=\"javascript:void(0);\" style=\"text-decoration: none;\" onmouseover=\"return overlib ('LAE DOME TEMPERATURE CHECK FAULT FLAG', CAPTION, 'AOLAEMON ' );\" onmouseout=\"return nd();\"><FONT SIZE=2 COLOR=%s>AOLAEMON </FONT></a></TD>\n", ${$h{AOLAEMON}}[3];
+printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%s </FONT></TD>\n", ${$h{AOLAEMON}}[3], ${$h{AOLAEMON}}[1];
 printf SF "<TR><TD><FONT SIZE=2>&nbsp</FONT></TR>\n";
 printf SF "<TR><TD><FONT SIZE=2>&nbsp</FONT></TR>\n";
 printf SF "</TABLE>\n";
