@@ -1,0 +1,50 @@
+# parameter file for snaps3.cgi
+# Tab delimited columns:
+#    MSID	comparison_mode		Args
+#
+#  Five comparison modes available:
+#	0 - no checks
+#
+#	1 - consult chex	Args: state_var  tolerance
+#	  	direct use of match method
+#
+#	2 - use static limits	
+#		Args: lower_yellow  upper_yellow  lower_red  upper_red
+#
+#	3 - use static, alphabetic constant	Args: constant_value
+#
+#	4 - use a custom function	Args: function_name
+#		function should be written in tlogr-soh.pl
+#		passed test value
+#		returns color
+#                has access to all msids and values
+#######################################################################
+3SEAPENA	3	ON
+3SEAPSMA	3	ON
+3MTRAEN		3	ENAB
+#3SEATMUP|0/1 (alt)
+3SEAID		3	A
+#3TSCPOS|Per Load
+#3FAPOS|Per Load
+3TSCMOVE	3	STOP
+3FAMOVE		3	STOP
+3SEAINCM	3	VALD
+3SEARSET	3	NORM
+3SEAROMF	3	NFAL
+3SEARAMF	3	NFAL
+3MRMMXMV	2	-	-	-	12
+3SMOTOC		2	-	-	-0.1	0.1
+3SMOTSTL	2	-	-	-0.1	0.1
+#3LDRTMEK|FA/TSC
+3LDRTNO		2	-	-	0	4
+3STAB2EN	3	ENAB
+#3LDRTPOS      Last Tab Update Value:
+3SMOTPEN	3	OFF
+#3SMOTSEL|FA/TSC
+3TRMTRAT	2	-	-	-	45
+3FAMTRAT	2	-	-	-	45
+#3FAPSAT       SEA PS Temp:
+#3FASEAAT      SEA Box Temp:
+4SP51V		2	4.75	5.25	4.5	5.5
+#4SP52V		2	4.75	5.25	4.5	5.5
+4SP52V		0
