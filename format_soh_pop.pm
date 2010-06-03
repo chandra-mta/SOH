@@ -275,6 +275,8 @@ printf SF "<TR><TD ALIGN=LEFT> <a href=\"javascript:void(0);\" style=\"text-deco
 printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%s </FONT></TD>\n", ${$h{AG4SELA}}[3], ${$h{AG4SELA}}[1];
 printf SF "<TR><TD ALIGN=LEFT> <a href=\"javascript:void(0);\" style=\"text-decoration: none;\" onmouseover=\"return overlib ('IRU GYRO 4 SEL (PWR LOSS RECOV SETUP) CPE-B <br>  NO YES', CAPTION, 'AG4SELB  ' );\" onmouseout=\"return nd();\"><FONT SIZE=2 COLOR=%s>AG4SELB  </FONT></a></TD>\n", ${$h{AG4SELB}}[3];
 printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%s </FONT></TD>\n", ${$h{AG4SELB}}[3], ${$h{AG4SELB}}[1];
+printf SF "<TR><TD ALIGN=LEFT> <a href=\"javascript:void(0);\" style=\"text-decoration: none;\" onmouseover=\"return overlib ('SCS 120 STATE', CAPTION, 'SCS120S  ' );\" onmouseout=\"return nd();\"><FONT SIZE=2 COLOR=%s>SCS120S  </FONT></a></TD>\n", ${$h{COSCS120S}}[3];
+printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%s </FONT></TD>\n", ${$h{COSCS120S}}[3], ${$h{COSCS120S}}[1];
 printf SF "<TR><TD><FONT SIZE=2>&nbsp</FONT></TR>\n";
 printf SF "</TABLE>\n";
 printf SF "</TABLE>\n";

@@ -104,8 +104,8 @@ printf SF "<TR><TD ALIGN=LEFT> <a href=\"javascript:void(0);\" style=\"text-deco
 printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%s</FONT></TD>\n", ${$h{"CTUEPA"}}[3], ${$h{"CTUEPA"}}[1];
 printf SF "<TD ALIGN=LEFT> <a href=\"javascript:void(0);\" style=\"text-decoration: none;\" onmouseover=\"return overlib ('CTU PROC B TLM REPLY BUS SELECT <br>  B A', CAPTION, 'CTUTMRYB' );\" onmouseout=\"return nd();\"><FONT SIZE=2 COLOR=%s>CTUTMRYB</FONT></a></TD>\n", ${$h{"CTUTMRYB"}}[3];
 printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%s</FONT></TD>\n", ${$h{"CTUTMRYB"}}[3], ${$h{"CTUTMRYB"}}[1];
-printf SF "<TD ALIGN=LEFT><FONT SIZE=2>&nbsp</FONT></TD>\n";
-printf SF "<TD ALIGN=LEFT><FONT SIZE=2>&nbsp</FONT></TD>\n";
+printf SF "<TD ALIGN=LEFT> <a href=\"javascript:void(0);\" style=\"text-decoration: none;\" onmouseover=\"return overlib ('SCS 120 STATE <br>  INAC SUSP ACT DISA', CAPTION, 'COSCS120S' );\" onmouseout=\"return nd();\"><FONT SIZE=2 COLOR=%s>COSCS120S</FONT></a></TD>\n", ${$h{"COSCS120S"}}[3];
+printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%s</FONT></TD>\n", ${$h{"COSCS120S"}}[3], ${$h{"COSCS120S"}}[1];
 printf SF "<TD ALIGN=LEFT> <a href=\"javascript:void(0);\" style=\"text-decoration: none;\" onmouseover=\"return overlib ('SCS 171 STATE <br>  INAC SUSP ACT DISA', CAPTION, 'COSCS171S' );\" onmouseout=\"return nd();\"><FONT SIZE=2 COLOR=%s>COSCS171S</FONT></a></TD>\n", ${$h{"COSCS171S"}}[3];
 printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%s</FONT></TD>\n", ${$h{"COSCS171S"}}[3], ${$h{"COSCS171S"}}[1];
 printf SF "<TD ALIGN=LEFT> <a href=\"javascript:void(0);\" style=\"text-decoration: none;\" onmouseover=\"return overlib ('SCS 215 STATE <br>  ACT INAC SUSP DISA', CAPTION, 'COSCS215S' );\" onmouseout=\"return nd();\"><FONT SIZE=2 COLOR=%s>COSCS215S</FONT></a></TD>\n", ${$h{"COSCS215S"}}[3];
