@@ -21,7 +21,7 @@ use comp_soh;
 use check_state;
 %h = check_state("$work_dir/soh.par", %h);
 
-use format_load_pop;
+use format_load;
 load_format("$work_dir/soh-load-rev.html", %h);
 #`cp $work_dir/load_rev.html $web_dir`;
 # end
