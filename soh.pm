@@ -308,9 +308,10 @@ sub print_links {
   $links{"S/C_Config"} = "/data/mta4/www/SOH/Config/soh-config.html";
   $links{"EPS"} = "/data/mta4/www/SOH/EPS/soh-eps.html";
   $links{"Safe_mode"} = "/data/mta4/www/SOH/Smode/soh-smode.html";
+  $links{"Load_rev"} = "/data/mta4/www/SOH/Load/soh-load-rev.html";
 
   # hash isn't perfect, because I want this order
-  my @order = qw(Top_Level PCAD CCDM S/C_Config Mechanisms Thermal Propulsion EPS Safe_mode);
+  my @order = qw(Top_Level PCAD CCDM S/C_Config Mechanisms Thermal Propulsion EPS Safe_mode Load_rev);
   printf SF "<TABLE BORDER=0>\n";
   foreach $key (@order) {
     if ($fname ne $links{$key}) {

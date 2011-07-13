@@ -46,6 +46,7 @@ foreach $f (@tlfiles) {
     #`$soh_dir/PCAD/tlogr-pcad.pl >> $HOME/Logs/RT/tlogr-pcad_bu.cron 2>&1`;
     #`$soh_dir/Mech/tlogr-mech.pl >> $HOME/Logs/RT/tlogr-mech_bu.cron 2>&1`;
     `$soh_dir/Prop/tlogr-prop.pl >> $HOME/Logs/RT/tlogr-prop_bu.cron 2>&1`;
+    `$soh_dir/Load/tlogr-load.pl >> $HOME/Logs/RT/tlogr-load_bu.cron 2>&1`;
     #`$soh_dir/Therm/tlogr-therm.pl >> $HOME/Logs/RT/tlogr-therm_bu.cron 2>&1`;
     #`$soh_dir/CCDM/tlogr-ccdm.pl >> $HOME/Logs/RT/tlogr-ccdm_bu.cron 2>&1`;
     #`$soh_dir/EPS/tlogr-eps.pl >> $HOME/Logs/RT/tlogr-eps_bu.cron 2>&1`;
