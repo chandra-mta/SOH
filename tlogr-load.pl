@@ -8,7 +8,7 @@ use lib '/data/mta4/www/SOH/LIB';
 my $work_dir = "/data/mta4/www/SOH";
 my $tl_dir = "/data/mta4/www/SOH";
 my $web_dir = "/proj/ascwww/AXAF/extra/science/cgi-gen/mta/SOH";
-my @ftype = qw(FORM CCDM PCAD CONFIG PROP LOAD);
+my @ftype = qw(FORM CCDM PCAD MISC MUPS SIM LOAD);
 
 use soh;
 my %h = get_times(get_data($tl_dir, @ftype));
@@ -22,6 +22,6 @@ use check_state;
 %h = check_state("$work_dir/soh.par", %h);
 
 use format_load;
-load_format("$work_dir/soh-load-rev.html", %h);
+load_format("$work_dir/Load/soh-load-rev.html", %h);
 #`cp $work_dir/load_rev.html $web_dir`;
 # end
