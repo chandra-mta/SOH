@@ -41,8 +41,8 @@ printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{TEPH
 printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>3TRMTRAT </FONT></TD>\n", ${$h{"3TRMTRAT"}}[3];
 printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{"3TRMTRAT"}}[3], ${$h{"3TRMTRAT"}}[1];
 printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>PM1THV1T </FONT></TD>\n", ${$h{PM1THV1T}}[3];
-printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{PM2THV1T}}[3], ${$h{PM2THV1T}}[1];
-printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>PM1THV1T </FONT></TD>\n", ${$h{PM1THV1T}}[3];
+printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{PM1THV1T}}[3], ${$h{PM1THV1T}}[1];
+printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>PM2THV1T </FONT></TD>\n", ${$h{PM2THV1T}}[3];
 printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{PM2THV1T}}[3], ${$h{PM2THV1T}}[1];
 printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>1PDEAAT </FONT></TD>\n", ${$h{"1PDEAAT"}}[3];
 printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{"1PDEAAT"}}[3], ${$h{"1PDEAAT"}}[1];
