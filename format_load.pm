@@ -35,19 +35,9 @@ printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%10.6f </FONT></TD>\n", ${$h{AOS
 printf SF "<TR><TD ALIGN=LEFT></TR>\n";
 printf SF "<TR><TD ALIGN=LEFT></TR>\n";
 printf SF "<TR><TD ALIGN=LEFT></TR>\n";
-printf SF "<TR><TD ALIGN=CENTER COLSPAN=2><FONT SIZE=4>TEMPERATURES</FONT></TR>\n";
+printf SF "<TR><TD ALIGN=CENTER COLSPAN=2><FONT SIZE=4>MINUS-Z MODEL TEMPERATURES</FONT></TR>\n";
 printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>TEPHIN </FONT></TD>\n", ${$h{TEPHIN}}[3];
 printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{TEPHIN}}[3], ${$h{TEPHIN}}[1];
-printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>3TRMTRAT </FONT></TD>\n", ${$h{"3TRMTRAT"}}[3];
-printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{"3TRMTRAT"}}[3], ${$h{"3TRMTRAT"}}[1];
-printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>PM1THV1T </FONT></TD>\n", ${$h{PM1THV1T}}[3];
-printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{PM1THV1T}}[3], ${$h{PM1THV1T}}[1];
-printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>PM2THV1T </FONT></TD>\n", ${$h{PM2THV1T}}[3];
-printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{PM2THV1T}}[3], ${$h{PM2THV1T}}[1];
-printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>1PDEAAT </FONT></TD>\n", ${$h{"1PDEAAT"}}[3];
-printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{"1PDEAAT"}}[3], ${$h{"1PDEAAT"}}[1];
-printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>1PIN1AT </FONT></TD>\n", ${$h{"1PIN1AT"}}[3];
-printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{"1PIN1AT"}}[3], ${$h{"1PIN1AT"}}[1];
 printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>TCYLAFT6 </FONT></TD>\n", ${$h{TCYLAFT6}}[3];
 printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{TCYLAFT6}}[3], ${$h{TCYLAFT6}}[1];
 printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>TMZP_MY </FONT></TD>\n", ${$h{TMZP_MY}}[3];
@@ -56,6 +46,22 @@ printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>TCYLFMZM </FONT></TD>\n", ${
 printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{TCYLFMZM}}[3], ${$h{TCYLFMZM}}[1];
 printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>TFSSBKT1 </FONT></TD>\n", ${$h{TFSSBKT1}}[3];
 printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{TFSSBKT1}}[3], ${$h{TFSSBKT1}}[1];
+
+printf SF "<TR><TD ALIGN=LEFT></TR>\n";
+printf SF "<TR><TD ALIGN=LEFT></TR>\n";
+printf SF "<TR><TD ALIGN=LEFT></TR>\n";
+printf SF "<TR><TD ALIGN=CENTER COLSPAN=2><FONT SIZE=4>MUPS VALVE MODEL TEMPERATURES</FONT></TR>\n";
+printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>PM1THV1T </FONT></TD>\n", ${$h{PM1THV1T}}[3];
+printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{PM1THV1T}}[3], ${$h{PM1THV1T}}[1];
+printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>PM2THV1T </FONT></TD>\n", ${$h{PM2THV1T}}[3];
+printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{PM2THV1T}}[3], ${$h{PM2THV1T}}[1];
+
+printf SF "<TR><TD ALIGN=LEFT></TR>\n";
+printf SF "<TR><TD ALIGN=LEFT></TR>\n";
+printf SF "<TR><TD ALIGN=LEFT></TR>\n";
+printf SF "<TR><TD ALIGN=CENTER COLSPAN=2><FONT SIZE=4>FUEL TANK MODEL TEMPERATURES</FONT></TR>\n";
+printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>PFTANK2T </FONT></TD>\n", ${$h{PFTANK2T}}[3];
+printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{PFTANK2T}}[3], ${$h{PFTANK2T}}[1];
 printf SF "</TABLE>\n";
 
 printf SF "<TD><TABLE BORDER=0><TR><TD><FONT SIZE=2>\&nbsp</TR></TABLE>\n";
@@ -97,6 +103,22 @@ printf SF "<TR><TD ALIGN=LEFT></TR>\n";
 printf SF "<TR><TD ALIGN=CENTER COLSPAN=2><FONT SIZE=4>SIM POSITION</FONT></TR>\n";
 printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>3TSCPOS     </FONT></TD>\n", ${$h{"3TSCPOS"}}[3];
 printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%i </FONT></TD>\n", ${$h{"3TSCPOS"}}[3], ${$h{"3TSCPOS"}}[1];
+
+printf SF "<TR><TD ALIGN=LEFT></TR>\n";
+printf SF "<TR><TD ALIGN=LEFT></TR>\n";
+printf SF "<TR><TD ALIGN=LEFT></TR>\n";
+printf SF "<TR><TD ALIGN=CENTER COLSPAN=2><FONT SIZE=4>PSMC MODEL TEMPERATURES</FONT></TR>\n";
+printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>1PDEAAT </FONT></TD>\n", ${$h{"1PDEAAT"}}[3];
+printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{"1PDEAAT"}}[3], ${$h{"1PDEAAT"}}[1];
+printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>1PIN1AT </FONT></TD>\n", ${$h{"1PIN1AT"}}[3];
+printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{"1PIN1AT"}}[3], ${$h{"1PIN1AT"}}[1];
+
+printf SF "<TR><TD ALIGN=LEFT></TR>\n";
+printf SF "<TR><TD ALIGN=LEFT></TR>\n";
+printf SF "<TR><TD ALIGN=LEFT></TR>\n";
+printf SF "<TR><TD ALIGN=CENTER COLSPAN=2><FONT SIZE=4>DPA MODEL TEMPERATURE</FONT></TR>\n";
+printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>1DPAMZT </FONT></TD>\n", ${$h{"1DPAMZT"}}[3];
+printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{"1DPAMZT"}}[3], ${$h{"1DPAMZT"}}[1];
 printf SF "<TR><TD><FONT SIZE=2>&nbsp</FONT></TR>\n";
 printf SF "<TR><TD><FONT SIZE=2>&nbsp</FONT></TR>\n";
 printf SF "<TR><TD><FONT SIZE=2>&nbsp</FONT></TR>\n";
