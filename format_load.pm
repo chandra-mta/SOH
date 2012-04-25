@@ -6,7 +6,8 @@ sub load_format {
 open (SF, ">>$outfile");
 
 printf SF "<TABLE BORDER=0>\n";
-printf SF "<TR><TD><TABLE BORDER=0>\n";
+printf SF "<TD><TABLE BORDER=0>\n";
+#printf SF "<TR><TD><TABLE BORDER=0>\n";
 printf SF "<TR><TD ALIGN=CENTER COLSPAN=2><FONT SIZE=4>PCAD LOAD REVIEW PARAMETERS</FONT></TR>";
 printf SF "<TR><TD ALIGN=LEFT></TR>\n";
 printf SF "<TR><TD ALIGN=LEFT></TR>\n";
@@ -119,11 +120,6 @@ printf SF "<TR><TD ALIGN=LEFT></TR>\n";
 printf SF "<TR><TD ALIGN=CENTER COLSPAN=2><FONT SIZE=4>DPA MODEL TEMPERATURE</FONT></TR>\n";
 printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>1DPAMZT </FONT></TD>\n", ${$h{"1DPAMZT"}}[3];
 printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{"1DPAMZT"}}[3], ${$h{"1DPAMZT"}}[1];
-printf SF "<TR><TD><FONT SIZE=2>&nbsp</FONT></TR>\n";
-printf SF "<TR><TD><FONT SIZE=2>&nbsp</FONT></TR>\n";
-printf SF "<TR><TD><FONT SIZE=2>&nbsp</FONT></TR>\n";
-printf SF "<TR><TD><FONT SIZE=2>&nbsp</FONT></TR>\n";
-printf SF "<TR><TD><FONT SIZE=2>&nbsp</FONT></TR>\n";
 printf SF "<TR><TD><FONT SIZE=2>&nbsp</FONT></TR>\n";
 printf SF "<TR><TD><FONT SIZE=2>&nbsp</FONT></TR>\n";
 
