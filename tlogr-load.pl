@@ -1,4 +1,4 @@
-#!/opt/local/bin/perl
+#!/usr/bin/perl
 
 use lib '/data/mta4/www/SOH/LIB';
 # produce a Chandra status snapshot
@@ -7,8 +7,9 @@ use lib '/data/mta4/www/SOH/LIB';
 
 my $work_dir = "/data/mta4/www/SOH";
 my $tl_dir = "/data/mta4/www/SOH";
-my $web_dir = "/proj/ascwww/AXAF/extra/science/cgi-gen/mta/SOH";
+my $web_dir = "/data/mta4/www/SOH";
 my @ftype = qw(FORM CCDM PCAD MISC MUPS SIM LOAD);
+my @ftype = qw(FORM CCDM PCAD MISC MUPS SIM LOAD TEMP);
 
 use soh;
 my %h = get_times(get_data($tl_dir, @ftype));
