@@ -60,9 +60,18 @@ printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{PM2T
 printf SF "<TR><TD ALIGN=LEFT></TR>\n";
 printf SF "<TR><TD ALIGN=LEFT></TR>\n";
 printf SF "<TR><TD ALIGN=LEFT></TR>\n";
-printf SF "<TR><TD ALIGN=CENTER COLSPAN=2><FONT SIZE=4>FUEL TANK MODEL TEMPERATURES</FONT></TR>\n";
+printf SF "<TR><TD ALIGN=CENTER COLSPAN=2><FONT SIZE=4>FUEL AND MUPS TANK TEMPERATURES</FONT></TR>\n";
 printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>PFTANK2T </FONT></TD>\n", ${$h{PFTANK2T}}[3];
 printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{PFTANK2T}}[3], ${$h{PFTANK2T}}[1];
+printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>PMTANK3T </FONT></TD>\n", ${$h{PMTANK3T}}[3];
+printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{PMTANK3T}}[3], ${$h{PMTANK3T}}[1];
+
+printf SF "<TR><TD ALIGN=LEFT></TR>\n";
+printf SF "<TR><TD ALIGN=LEFT></TR>\n";
+printf SF "<TR><TD ALIGN=LEFT></TR>\n";
+printf SF "<TR><TD ALIGN=CENTER COLSPAN=2><FONT SIZE=4>OBA FORWARD BULKHEAD TEMPERATURES</FONT></TR>\n";
+printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>4RT700T </FONT></TD>\n", ${$h{"4RT700T"}}[3];
+printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{"4RT700T"}}[3], ${$h{"4RT700T"}}[1];
 printf SF "</TABLE>\n";
 
 printf SF "<TD><TABLE BORDER=0><TR><TD><FONT SIZE=2>\&nbsp</TR></TABLE>\n";
@@ -120,6 +129,13 @@ printf SF "<TR><TD ALIGN=LEFT></TR>\n";
 printf SF "<TR><TD ALIGN=CENTER COLSPAN=2><FONT SIZE=4>DPA MODEL TEMPERATURE</FONT></TR>\n";
 printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>1DPAMZT </FONT></TD>\n", ${$h{"1DPAMZT"}}[3];
 printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{"1DPAMZT"}}[3], ${$h{"1DPAMZT"}}[1];
+
+printf SF "<TR><TD ALIGN=LEFT></TR>\n";
+printf SF "<TR><TD ALIGN=LEFT></TR>\n";
+printf SF "<TR><TD ALIGN=LEFT></TR>\n";
+printf SF "<TR><TD ALIGN=CENTER COLSPAN=2><FONT SIZE=4>ACA MODEL TEMPERATURE</FONT></TR>\n";
+printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>AACCCDPT_C </FONT></TD>\n", ${$h{"AACCCDPT"}}[3];
+printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{"AACCCDPT"}}[3], ${$h{"AACCCDPT"}}[1];
 printf SF "<TR><TD><FONT SIZE=2>&nbsp</FONT></TR>\n";
 printf SF "<TR><TD><FONT SIZE=2>&nbsp</FONT></TR>\n";
 

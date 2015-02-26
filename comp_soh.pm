@@ -15,6 +15,7 @@ sub do_comps {
   $h{'AORWSPD6'} = [${$h{AORWSPD6}}[0], ${$h{AORWSPD6}}[1] * 9.549297, ${$h{AORWSPD6}}[2]];
   $h{'MOMENTUM'} = [${$h{AOSYMOM1}}[0], sqrt(${$h{AOSYMOM1}}[1]**2 + ${$h{AOSYMOM2}}[1]**2 + ${$h{AOSYMOM3}}[1]**2), "white"];
   $h{'POWER'} = [$ltime, ${$h{ELBI_LOW}}[1]*${$h{ELBV}}[1], "white"];
+  $h{'AACCCDPT'}[1] = (${$h{AACCCDPT}}[1] - 32)*5/9;
   if (${$h{COFLCXSM}}[1] == -1330) {
     $h{'COFLCXSM'} = [${$h{COFLCXSM}}[0], 'FACE', ${$h{COFLCXSM}}[2]];
   }
