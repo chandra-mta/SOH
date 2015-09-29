@@ -52,8 +52,8 @@ printf SF "<TR><TD ALIGN=LEFT></TR>\n";
 printf SF "<TR><TD ALIGN=LEFT></TR>\n";
 printf SF "<TR><TD ALIGN=LEFT></TR>\n";
 printf SF "<TR><TD ALIGN=CENTER COLSPAN=2><FONT SIZE=4>MUPS VALVE MODEL TEMPERATURES</FONT></TR>\n";
-printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>PM1THV1T </FONT></TD>\n", ${$h{PM1THV1T}}[3];
-printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{PM1THV1T}}[3], ${$h{PM1THV1T}}[1];
+printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>PM1THV2T </FONT></TD>\n", ${$h{PM1THV2T}}[3];
+printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{PM1THV2T}}[3], ${$h{PM1THV2T}}[1];
 printf SF "<TR><TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>PM2THV1T </FONT></TD>\n", ${$h{PM2THV1T}}[3];
 printf SF "<TD ALIGN=LEFT><FONT SIZE=2 COLOR=%s>%7.2f </FONT></TD>\n", ${$h{PM2THV1T}}[3], ${$h{PM2THV1T}}[1];
 
